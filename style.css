@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header-Section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCEEF1;
+}
+.text-section{
+    width: 40%;
+    text-align: center;
+}
+.text-section h1{
+    font-size: 45px;
+    width: 61%;
+    margin: auto;
+}
+
+.text-section p{
+    font-size: 14px;
+    color: #000;
+}
+
+.img-section img{
+    width: 100%;
+    margin-top: 71px;
+}
+.ShopNowBtn{
+    margin-left: -60px;
+    padding: 13px 26px;
+    color: #fff;
+    background-color: #B61B35;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+section{
+    margin-top: 100px;
+}
+.Banner-Section {
+    width: 70%;
+    height: 40vh;
+    margin: auto;
+    background-image: url(./Rectangle\ 9.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Banner-Section h1{
+    font-size: 30px;
+}
+.Banner-Section p{
+    font-size: 17px;
+    margin-top: -10px;
+}
+.banner{
+    margin-top: 20px;
+}
+.Banner-Section input {
+    padding: 10px 40px;
+    border: 1px solid #fff1ff;
+
+}
+.Banner-Section button{
+    margin-left: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #B61B35;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+footer{
+    width: 100%;
+    height: 40vh;
+    margin-top: 100px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
